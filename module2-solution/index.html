@@ -2,43 +2,67 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assignment Solution for Module 2</title>
 <style>
+* {
+	box-sizing: border-box;
+}
+
 h1 {
 	margin-bottom: 15px;
 }
-
 p {
 	border: 1px solid black;
-	margin-bottom: 15px;
-}
-#p1 {
 	background-color: #A52A2A;
-	width: 300px;
-	height: 300px;
-}
-#p2 {
-	background-color: #DEB887;
-	width: 50px;
-	height: 50px;
+	width: 90%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	color: White
 }
 
-@media (min-width: 992px) {
-	#p1 {
-		width: 50%;
+@media (min-width: 1200px) {
+	.col-lg-1,.col-lg-2, .col-lg-3 {
+		float: left;
+		border: 1px solid green;
 	}
-	#p2 {
-		width: 150px;
-		height: 150px;
+	.col-lg-1 {
+	width: 8.33%
+	}
+	.col-lg-2 {
+	width: 16.66%
+	}
+	.col-lg-3 {
+	width: 25%
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-1, .col-md-2,.col-md-3, {
+		float: left;
+		border: 1px solid green;
+	}
+	col-md-1 {
+		width: 8.33%;
+	}
+	col-md-2 {
+		width: 16.66%;
+	}
+	col-md-3 {
+		width: 25%;
 	}
 }
 
 </style>
 </head>
 <body>
-<h1>Media Queries</h1>
+<h1>Our menu</h1>
 
-<p id="p1"></p>
-<p id="p2"></p>
+<div class="row">
+	<div class="col-lg-3 col-md-6"><p>Chicken</p></div>
+	<div class="col-lg-3 col-md-6"><p>Beef</p></div>
+	<div class="col-lg-3 col-md-6"><p>Sushi</p></div>
 </body>
 </html>
