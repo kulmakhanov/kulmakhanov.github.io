@@ -15,6 +15,19 @@ h1 {
   text-align: center;
 }
 
+.notetitle {
+    border: 3px solid black; /* Параметры рамки */
+    padding: 3px; /* Поля вокруг текста */
+	border-bottom: none; /* Убираем границу снизу */
+    display: inline; /* Устанавливаем как строчный элемент */
+    background: #ffeebf; /* Цвет фона */
+    font-weight: bold; /* Жирное начертание */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 20pt; /* Размер шрифта в пунктах */
+    margin: 0; /* Убираем отступы */
+    white-space: nowrap; /* Запрещены переносы текста */
+   }
+
 p {
   width: 100%;
   height: 130px;
@@ -24,9 +37,9 @@ p {
   margin-right: auto;
   margin-left: auto;
   font-family: Verdana, Arial, Helvetica, sans-serif; 
-  font-size: 13pt; /* Размер шрифта в пунктах */
+  font-size: 12pt; /* Размер шрифта в пунктах */
   background-color: #DEB887;
-  text-align: center;
+  margin-top: 4px;
 }
 
 /* Simple Responsive Framework. */
@@ -90,13 +103,19 @@ p {
 
 <div class="row">
   <div class="col-lg-3 col-md-2 col-sm-6">
-	<p>Item 1</p>
+	<p class="notetitle">Chicken</p>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh 
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
   </div>
   <div class="col-lg-3 col-md-2 col-sm-6">
-	<p>Item 2</p>
+	<p class="notetitle">Beef</p>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh 
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
   </div>
   <div class="col-lg-3 col-md-4 col-sm-6">
-	<p>Item 3</p>
+	<p class="notetitle">Sushi</p>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh 
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
   </div>
 </div>
 
