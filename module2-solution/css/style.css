@@ -1,38 +1,36 @@
-
 /********** Base styles **********/
 * {
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
 .notetitle {
     border: 3px solid black; /* Параметры рамки */
     padding: 4px; /* Поля вокруг текста */
-	border-bottom: none; /* Убираем границу снизу */
     display: inline; /* Устанавливаем как строчный элемент */
+	border-bottom: none;
     background: #ffeebf; /* Цвет фона */
     font-weight: bold; /* Жирное начертание */
 	font-family: Verdana, Arial, Helvetica, sans-serif; 
 	font-size: 20pt; /* Размер шрифта в пунктах */
-	margin-top: 50px;
+	margin: 0;
    }
 
 p {
   width: 100%;
   height: 130px;
   border: 3px solid black;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-weight: bold;
   margin-right: auto;
   margin-left: auto;
   font-family: Verdana, Arial, Helvetica, sans-serif; 
   font-size: 12pt; /* Размер шрифта в пунктах */
-  background-color: #DEB887;
-  margin-top: 70px;
-  
+  background-color: #DEB887; 
+  margin-top: 5px;  
 }
 
 /* Simple Responsive Framework. */
